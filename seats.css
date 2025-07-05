@@ -1,0 +1,10 @@
+.seat {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+.seat-button {
+  border: none;
+  outline: none;
+  background-color: white;
+}
