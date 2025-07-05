@@ -1,0 +1,79 @@
+.back-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 60px;
+
+  margin-bottom: 2px;
+  background-color: blue;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+
+  outline: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bus {
+  background-image: linear-gradient(to right, green, #6433ff);
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+
+  align-items: center;
+  padding-left: 100px;
+  height: 80px;
+  padding-right: 100px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+.root {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.root-img {
+  height: 30px;
+  width: 30px;
+  color: red;
+}
+.from {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+  margin-right: 30px;
+}
+.date-cont {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+}
+.date {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: sans-serif;
+}
+.date-img {
+  color: #ff338a;
+  margin-right: 10px;
+}
+.root1 {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+
+  margin-right: 200px;
+  margin-left: 300px;
+}
